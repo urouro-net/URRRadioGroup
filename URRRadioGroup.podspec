@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "URRRadioGroup"
   s.version      = "0.1"
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios
   s.summary      = "URRRadioGroup is radio button control for iOS."
   s.homepage     = "http://github.com/urouro/URRRadioGroup"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
