@@ -10,4 +10,12 @@
 
 @interface URRViewController : UIViewController
 
+@property(nonatomic,weak) IBOutlet UIButton *radio1;
+@property(nonatomic,weak) IBOutlet UIButton *radio2;
+@property(nonatomic,weak) IBOutlet UIButton *radio3;
+
+@property(nonatomic,weak) IBOutlet UIButton *radio4;
+@property(nonatomic,weak) IBOutlet UIButton *radio5;
+@property(nonatomic,weak) IBOutlet UIButton *radio6;
+
 @end

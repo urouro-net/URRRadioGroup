@@ -21,6 +21,7 @@
 		AB72BEBF18D6E70B0069B069 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB72BEA118D6E70B0069B069 /* UIKit.framework */; };
 		AB72BEC718D6E70B0069B069 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB72BEC518D6E70B0069B069 /* InfoPlist.strings */; };
 		AB72BEC918D6E70B0069B069 /* URRRadioGroupExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB72BEC818D6E70B0069B069 /* URRRadioGroupExampleTests.m */; };
+		AB72BED518D6E7670069B069 /* URRRadioGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = AB72BED418D6E7670069B069 /* URRRadioGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		AB72BEC418D6E70B0069B069 /* URRRadioGroupExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "URRRadioGroupExampleTests-Info.plist"; sourceTree = "<group>"; };
 		AB72BEC618D6E70B0069B069 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB72BEC818D6E70B0069B069 /* URRRadioGroupExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URRRadioGroupExampleTests.m; sourceTree = "<group>"; };
+		AB72BED318D6E7670069B069 /* URRRadioGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URRRadioGroup.h; path = URRRadioGroup/URRRadioGroup.h; sourceTree = "<group>"; };
+		AB72BED418D6E7670069B069 /* URRRadioGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URRRadioGroup.m; path = URRRadioGroup/URRRadioGroup.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		AB72BE9118D6E70B0069B069 = {
 			isa = PBXGroup;
 			children = (
+				AB72BED218D6E71A0069B069 /* URRRadioGroup */,
 				AB72BEA318D6E70B0069B069 /* URRRadioGroupExample */,
 				AB72BEC218D6E70B0069B069 /* URRRadioGroupExampleTests */,
 				AB72BE9C18D6E70B0069B069 /* Frameworks */,
@@ -150,6 +154,15 @@
 				AB72BEC518D6E70B0069B069 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB72BED218D6E71A0069B069 /* URRRadioGroup */ = {
+			isa = PBXGroup;
+			children = (
+				AB72BED318D6E7670069B069 /* URRRadioGroup.h */,
+				AB72BED418D6E7670069B069 /* URRRadioGroup.m */,
+			);
+			name = URRRadioGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +266,7 @@
 				AB72BEB418D6E70B0069B069 /* URRViewController.m in Sources */,
 				AB72BEAE18D6E70B0069B069 /* URRAppDelegate.m in Sources */,
 				AB72BEAA18D6E70B0069B069 /* main.m in Sources */,
+				AB72BED518D6E7670069B069 /* URRRadioGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +394,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "URRRadioGroupExample/URRRadioGroupExample-Prefix.pch";
 				INFOPLIST_FILE = "URRRadioGroupExample/URRRadioGroupExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "URRRadioGroupExample/URRRadioGroupExample-Prefix.pch";
 				INFOPLIST_FILE = "URRRadioGroupExample/URRRadioGroupExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
